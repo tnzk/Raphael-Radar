@@ -4,15 +4,15 @@ Raphael Radar 0.0.0
 
 LAST UPDATED: 2010-03-07
 
-Whats is this?
+What is this?
 --------------
 
 Raphael Radar is a JavaScript library to draw a controlable radar chart
 using Raphael.js, a JavaScript library to draw SVG.
 
-A radar chart is also known as web chart, spider chart. This chart gives
-you a method to make multivariable data easy to see. Many web sites use the
-chart to display complex datas coolly.
+A radar chart is also known as a web chart or a spider chart. This chart gives
+you a method to make multiple variables easy to see. This will provide a way to
+show complex data in simple manner.
 
 This library gives you a way to show the radar chart with SVG and to realize
 a cool UI selecting complex parameters.
@@ -20,7 +20,7 @@ a cool UI selecting complex parameters.
 Requirements
 -------------
 
-You have to install below libraries to use Raphael Radar:
+You have to install the libraries below to use Raphael Radar:
 
   1. Raphael.js 1.3.1 or later
   2. jQuery 1.4.2 or later
@@ -31,8 +31,7 @@ How To Install
 --------------
 
   1. Download and install Raphael.js and jQuery.
-  2. Download and extract an archive of this.
-  3. Put them to wherever you like.
+  2. Download and extract the archive to your desired directory
 
 How To Use
 ----------
@@ -50,7 +49,7 @@ How To Use
        6.   Array: An array storing IDs of form fields related each parameter. If you do not want, set null here.
        7. Integer: A max value of parameters. The values of array, 4th argument have to be within the range from 0 to this argument.
 
-    More concrete example is available to see in index.html or below URL:
+    More detailed example is available in index.html or URL below:
 
       [http://www.tnzk.org/devel/Raphael-Radar/example/](http://www.tnzk.org/devel/Raphael-Radar/example/)
 
