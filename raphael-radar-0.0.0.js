@@ -13,9 +13,9 @@ Raphael.fn.polygon = function (params, points)
     var poly = this.path(path_string);
     poly.attr(params);
 
-    /* Why this doesnt work?
+    /*
     for( var pos in points){
-      console.log(pos);
+      console.log(points[pos]);
     }
     */
 
